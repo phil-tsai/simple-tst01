@@ -1,0 +1,80 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>網頁-test</title>
+<style type="text/css">
+body {
+	background-image: url(img/bg.jpg);
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-size: 100% auto;
+	background-attachment: fixed;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+}
+#w_bg {
+	background-color: hsla(0,0%,100%,0.50);
+	margin-left: auto;
+	margin-right: auto;
+	width: 70%;
+	min-height: 600px;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 0px 15px hsla(0,0%,0%,0.62);
+	box-shadow: 0px 0px 15px hsla(0,0%,0%,0.62);
+}
+#LOGO {
+	width: 300px;
+	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", "Arial Black", sans-serif;
+	text-align: center;
+	font-size: 60px;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 50px;
+	color: hsla(0,0%,21%,1.00);
+	text-shadow: 0px 0px 5px hsla(0,0%,100%,0.50);
+	padding-bottom: 30px;
+}
+#menu {
+	background-color: hsla(0,0%,0%,1.00);
+	color: hsla(0,0%,100%,1.00);
+	height: 50px;
+	text-align: center;
+}
+#w_bg #menu a {
+	color: hsla(0,0%,59%,1.00);
+	text-decoration: none;
+	font-family: "微軟正黑體";
+	font-size: 20px;
+	line-height: 50px;
+	padding-left: 30px;
+	padding-right: 30px;
+}
+#w_bg #menu a:hover {
+	color: hsla(62,100%,50%,1.00);
+}
+</style>
+</head>
+
+<body>
+<div id="w_bg">
+  <div id="LOGO"> Page Test</div>
+  <div id="menu"><a href="#">關於我</a><a href="#">最新消息</a><a href="#">範例介紹</a><a href="#">聯絡我</a></div>
+</div>
+
+
+<form method="post" action="https://toolkit.url.com.tw/qform/qform.php?servername=trial-148858.url.tw&serverid=148858" accept-charset="UTF-8">
+您的大名 <input name="客戶姓名" type="text"><br/>
+您的聯絡電話 <input name="客戶聯絡電話" type="text"><br/>
+您的手機 <input name="客戶手機" type="text"><br/>
+您的電子信箱 <input name="客戶電子信箱" type="text"><br/>
+您想反應的狀況，建議，或諮詢事項 <textarea name="客戶反應內容"></textarea><br/>
+<input name="backurl" value="http://www.trial-148858.url.tw" type="hidden"><br/>
+<input name="lang" value="zh-TW" type="hidden"><br/>
+<input name="submit" value="送出" type="submit"><br/>
+</form>
+
+</body>
+</html>
